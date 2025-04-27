@@ -1,12 +1,90 @@
-# React + Vite
+# 📝 Diário Digital
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O **Diário Digital** é uma aplicação web feita em React que permite ao usuário criar, visualizar, editar e excluir páginas de diário pessoais. O projeto utiliza o `LocalStorage` do navegador para armazenar os dados localmente, sem necessidade de back-end.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+<Div align="center">
+  
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![LocalStorage](https://img.shields.io/badge/LocalStorage-FFA500?style=for-the-badge)
+
+</Div>
+
+---
+
+## ✨ Funcionalidades
+
+- 📄 Criar novas **páginas** do diário  
+- 🔍 Visualizar todas as suas páginas salvas  
+- ✏️ Edita qualquer página a qualquer momento  
+- ❌ Excluir páginas que você não quer mais  
+- 📱 Design responsivo  
+- 💾 Dados salvos diretamente no navegador (LocalStorage)
+
+---
+
+## 📁 Estrutura do Projeto
+
+```
+src/
+├── components/
+│   ├── Header.jsx
+│   ├── PaginaCard.jsx
+├── pages/
+│   ├── Home.jsx
+│   ├── Nova.jsx
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+## 🧪 Como Rodar o Projeto
+
+```bash
+# Clone o repositório
+git clone https://github.com/VitorAguiiar/Diario_Digital.git
+
+# Acesse a pasta
+cd diario-digital
+
+# Instale as dependências
+npm install
+
+# Inicie o servidor local
+npm run dev
+```
+
+Abra no navegador: `http://localhost:5173`
+
+---
+
+## 💡 Observações
+
+- Nenhum dado vai para a internet — tudo é salvo no seu navegador!
+- Ideal para uso pessoal ou aprendizado em front-end.
+
+---
+
+## 👨‍💻 Autor
+
+Feito por **Vitor Aguiar** e **Daniel de Lima**.
+```
+GitHub: https://github.com/VitorAguiiar
+Instagram: @_.vitinho07
+```
+
+```
+GitHub: https://github.com/D3ni0l
+```
+---
+
+> _"Escreva algo todo dia. Um pensamento, uma memória, um sonho. O importante é registrar."_ ✍️
