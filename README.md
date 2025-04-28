@@ -1,6 +1,6 @@
 # 📝 Diário Digital
 
-O **Diário Digital** é uma aplicação web feita em React que permite ao usuário criar, visualizar, editar e excluir páginas de diário pessoais. O projeto utiliza o `LocalStorage` do navegador para armazenar os dados localmente, sem necessidade de back-end.
+O **Diário Digital** é uma aplicação web feita em React que permite ao usuário criar, visualizar, editar e excluir páginas de diário pessoais. O projeto funciona como uma SPA (Single Page Application) e utiliza o `LocalStorage` do navegador para armazenar os dados localmente, sem necessidade de back-end.
 
 ---
 
