@@ -87,8 +87,9 @@ GitHub: https://github.com/D3ni0l
 ```
 ---
 
-## Quer conhecer o Diário Digital?
-   *Acesse diretamente pelos links abaixo.*
+## Quer conhecer o Diário Digital? *Acesse diretamente pelos links abaixo.*
+
+   
 **Site**: https://diarioweb.netlify.app/
 **Link Reserva**: https://vitoraguiiar.github.io/Diario_Digital/
 
